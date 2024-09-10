@@ -1,0 +1,11 @@
+.galleryStyling{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2vw;
+
+    img{
+        width: 30vw;
+        height: 20vw;
+    }
+}
